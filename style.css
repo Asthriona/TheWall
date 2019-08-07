@@ -1,0 +1,76 @@
+body {
+	background-color: #3d3d3d !important;
+	color: white !important;
+}
+	
+.header {
+    background-image: url(https://cdn.discordapp.com/attachments/603182606309130271/607691767243866125/WoWScrnShot_080419_213021.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #333;
+    height: 100vh;
+}
+.header-content-inner {
+	color: white;
+	background: rgba(0, 0, 0, 0.5);
+	padding: 100px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -200px;
+	margin-left: -400px;
+}
+.who {
+    text-align: center;
+    position: relative;
+    top: 5%;
+}
+.team {
+    background: #000;
+}
+.team, img {
+    height: 200px;
+    height: 200px;
+    
+}
+.part {
+    text-align: center;
+    
+}
+.name {
+    text-align: center;
+}
+.spe {
+    text-align: center;
+}
+.column {
+    float: left;
+    width: 25%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+  }
+  @media screen and (max-width: 650px) {
+    .column {
+      width: 100%;
+      display: block;
+    }
+  }
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background-color: #333 !important;
+  }
+  .container {
+    padding: 0 16px;
+  }
+  .container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .title {
+    color: rgb(255, 255, 255);
+  }
+  
+  .button:hover {
+    background-color: rgb(0, 0, 0);
+  }
