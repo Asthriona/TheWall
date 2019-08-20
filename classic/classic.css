@@ -1,0 +1,89 @@
+body {
+    background-color: #3d3d3d !important;
+    color: black !important;
+    background-image: url(https://cdn.asthriona.com/classicgb2.jpg)
+}
+.logo img {
+    position: center;
+    float: center;
+    border: rgba(58, 58, 58, 1)
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-image: url(https://worldofwarcraft.akamaized.net/static/components/SiteNav/sitenav-bar-bg.jpg)
+  }
+  
+  li {
+    float: left;
+    text-align: center;
+    background-image: url(https://worldofwarcraft.akamaized.net/static/components/SiteNav/sitenav-bar-bg.jpg)
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  li a:hover {
+    background-color: #111;
+  }
+.who {
+    position: relative;
+    display: block;
+    padding-bottom: 100px;
+}
+.textbg {
+    /* Old Cloudsdale Radio Code*/
+    background-image: url(https://cdn.asthriona.com/classicgb.jpg);
+    margin-left: 17%;
+    margin-right: 17%;
+    border-radius: 0px;
+}
+.separator {
+    margin-bottom: 50px;
+}
+.team {
+    position: relative;
+    margin-top: 16px;
+  }
+  .column {
+      margin-top: 1%;
+      float: left;
+      width: 17%;
+      margin-bottom: 16px;
+      padding: 0 8px;
+    }
+    @media screen and (max-width: 650px) {
+      .column {
+        width: 100%;
+        display: block;
+      }
+    }
+    .card {
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+      background-image: url(https://cdn.asthriona.com/classicgb.jpg);
+    }
+    .container {
+      padding: 0 16px;
+    }
+    .container::after, .row::after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+    .title {
+      color: black;
+      overflow: hidden;
+    }
+    footer {
+        position: relative;
+        background-color: #000;
+        text-align: center;
+        position: relative;
+        margin-top: 10%;
+      }
