@@ -8,7 +8,8 @@ body {
 .logo img {
     position: center;
     float: center;
-    border: rgba(58, 58, 58, 1)
+    border: rgba(58, 58, 58, 1);
+    border-radius: 10px;
 }
 ul {
     list-style-type: none;
@@ -46,18 +47,21 @@ ul {
     margin-right: 17%;
     border-radius: 0px;
     text-align: center;
+    border: rgb(0, 0, 0);
+    border-style: solid;
+    border-width: 2px;
 }
 .separator {
     margin-bottom: 50px;
 }
-.team {
-    position: relative;
-    margin-top: 16px;
-  }
+/*.team {*/
+    /*position: relative;*/
+    /*margin-top: 16px;*/
+  /*}*/
   .column {
       margin-top: 1%;
       float: left;
-      width: 17%;
+      width: 18%;
       margin-bottom: 16px;
       padding: 0 8px;
     }
@@ -68,8 +72,9 @@ ul {
       }
     }
     .card {
-      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+      box-shadow: 1px 4px 8px 8px rgba(0, 0, 0, 0.2);
       background-image: url(https://cdn.asthriona.com/classicgb.jpg);
+      height: 300px;
     }
     .container {
       padding: 0 16px;
