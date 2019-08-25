@@ -1,0 +1,86 @@
+body {
+	background-color: #3d3d3d !important;
+	color: white !important;
+}
+	
+.header {
+    background-image: url(https://cdn.asthriona.com/TheWallHeader.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #333;
+    height: 100vh;
+}
+.header-content-inner {
+	color: white;
+	background: rgba(0, 0, 0, 0.5);
+	padding: 100px;
+  position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -200px;
+	margin-left: -400px;
+}
+.who {
+    text-align: center;
+    position: relative;
+    margin-top: 10%;
+}
+.praise {
+  text-align: left;
+}
+a:link {
+  color: aliceblue;
+}
+a:visited {
+  color: aliceblue;
+}
+a:hover {
+  color: aliceblue;
+  text-decoration: none;
+}
+a:active {
+  color: aliceblue;
+}
+.team {
+  position: relative;
+  margin-top: 10%;
+}
+.column {
+    float: left;
+    width: 20%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+  }
+  @media screen and (max-width: 650px) {
+    .column {
+      width: 100%;
+      display: block;
+    }
+  }
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background-color: #333 !important;
+  }
+  .container {
+    padding: 0 16px;
+  }
+  .container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .title {
+    color: rgb(255, 255, 255);
+  }
+  
+  .button:hover {
+    background-color: rgb(0, 0, 0);
+  }
+
+  footer {
+    position: relative;
+    background-color: #000;
+    text-align: center;
+    position: relative;
+    margin-top: 10%;
+  }
