@@ -1,7 +1,9 @@
 body {
     background-color: #3d3d3d !important;
     color: black !important;
-    background-image: url(https://cdn.asthriona.com/classicgb2.jpg)
+    background-image: url(https://cdn.asthriona.com/classicgb2.jpg);
+    margin: 0;
+    padding:0;
 }
 .logo img {
     position: center;
@@ -43,6 +45,7 @@ ul {
     margin-left: 17%;
     margin-right: 17%;
     border-radius: 0px;
+    text-align: center;
 }
 .separator {
     margin-bottom: 50px;
