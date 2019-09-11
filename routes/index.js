@@ -13,13 +13,13 @@ var router = express.Router();
 //});
 
 //classic
-router.get('/',function(req,res,next) {
-  res.render('classic', {title: 'The Wall - Classic - No.', layout: 'classic'})
+router.get('/classic',function(req,res,next) {
+  res.render('classic', {title: 'The Wall - Classic.', layout: 'classic'})
 });
 router.get('/no',function(req,res,next) {
   res.render('no', {title: 'The Wall - Classic - No.', layout: 'classic'})
 });
-router.get('/home', function(req, res, next) {
+router.get('/', function(req, res, next) {
   res.render('index', { title: 'The Wall' });
   });
 
