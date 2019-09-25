@@ -3,6 +3,7 @@ var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 var exphbs  = require('express-handlebars');
+var Sentry = require('@sentry/node');
 
 var indexRouter = require('./routes/index');
 //var usersRouter = require('./routes/users');
@@ -22,3 +23,11 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use('/', indexRouter);
 //app.use('/users', usersRouter);
 module.exports = app;
+
+//SENTRY
+Sentry.init({ dsn: 'https://fa90c18f82ac496cbb717f7ec96a7f25@sentry.io/1761244' });
+app.use(Sentry.Handlers.requestHandler());
+app.use(Sentry.Handlers.errorHandler());
+app.get('/debug-sentry', function mainHandler(req, res) {
+    throw new Error('My first Sentry error!');
+  });
