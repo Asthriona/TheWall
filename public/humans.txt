@@ -1,0 +1,23 @@
+/* TEAM */
+
+    Admin Sys : Asthriona
+    Twitter : @Asthriona
+    Contact : im [at] Asthriona.com
+    From : United Kingdom
+
+/* THANKS */
+    Name : Sirius Media Group (Hosting)
+    Name : Acrylix (Heal/DPS/Tank)
+    Name : Vik (Tank)
+    Name : FriendForAll (Heal)
+    Name : Corv (DPS/Heal)
+    Name : Azmerhos (DPS)
+    Name : Blizzard Entertaiment
+
+
+
+/* SITE */
+    Last update : 2019/10/27 (Major)
+    Standards : HTML5, CSS3, Express, NodeJS, NPM, Docker, Material Design.
+    Components : jQuery, Boostrap 4.
+    Software : Visual Studio Code, Photoshop, filezilla, Docker, Debian 9.
