@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:ror="http://rorweb.com/0.1/" >
+<channel>
+  <title>ROR Sitemap for https://thewall.ovh/</title>
+  <link>https://thewall.ovh/</link>
+
+<item>
+     <link>https://thewall.ovh/</link>
+     <title>The Wall</title>
+     <description>The Wall, arguably the best World of warcraft guild there is, is a group of friends that met at the Auction House Dance Party. No dungeon or raid boss is safe from the wrath we bring to the enemies of our lord.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>0</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+</channel>
+</rss>
+  
