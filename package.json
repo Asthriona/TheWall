@@ -12,7 +12,7 @@
     "@sentry/node": "^5.7.1",
     "cookie-parser": "~1.4.4",
     "debug": "~2.6.9",
-    "express": "~4.16.1",
+    "express": "~4.17.1",
     "express-handlebars": "^3.1.0",
     "http-errors": "~1.6.3",
     "mdbootstrap": "^4.8.11",
