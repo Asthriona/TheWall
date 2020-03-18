@@ -1,15 +1,10 @@
-
-
-console.log("Hello :)");
-console.log("What's up ? u good ?");
-console.log("Stop reading my code! =(>_<)=")
-console.log("I know it's not good... But it's works! (・`ω´・)")
-console.log("( ; ω ; )")
-console.log("( ; ω ; )")
-console.log("( ; ω ; )")
-console.log("( ; ω ; )")
-console.log("( ; ω ; )")
-console.log("( ; ω ; )")
-console.log("Okay maybe it's fine... (ಥ﹏ಥ) ")
-console.log("(^vvvv^)")
-console.log("It's Tokyo Machine, He check is the website works fine.")
+var oldTime = new Date('2019/07/22 06:42:00');
+var timer = setInterval(function () {
+  var nowTime = new Date();
+  var longTime = nowTime - oldTime;
+  var days = parseInt(longTime / 1000 / 60 / 60 / 24, 10);
+  var hours = parseInt(longTime / 1000 / 60 / 60 % 24, 10);
+  var minutes = parseInt(longTime / 1000 / 60 % 60, 10);
+  var seconds = parseInt(longTime / 1000 % 60, 10);
+  $('.uptime').html(longTime = days + " Days " + hours + " Hours " + minutes + " Minutes and " + seconds + " seconds");
+}, 1000);
