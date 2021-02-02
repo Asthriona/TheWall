@@ -21,7 +21,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', indexRouter);
 //app.use('/users', usersRouter);
-module.exports = app;
+app.listen(1001, console.log('Listen 1001'))
 
 //SENTRY
 Sentry.init({ dsn: 'https://fa90c18f82ac496cbb717f7ec96a7f25@sentry.io/1761244' });
